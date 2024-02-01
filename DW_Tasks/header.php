@@ -24,11 +24,14 @@
                         <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
                         <li><a href="ex1.php">Exercise1</a></li>
                         <li><a href="ex2.php">Exercise2</a></li>
+                        <li><a href="ex3.php">Exercise3</a></li>
+                        <li><a href="ex4.php">Exercise4</a></li>
                         </ul>
                         <ul>
                         <li><a href="ex1.php">Exercise1</a></li>   
                         <li class="hideOnMobile"><a href="ex2.php">Exercise2</a></li>
-
+                        <li><a href="ex3.php">Exercise3</a></li>
+                        <li><a href="ex4.php">Exercise4</a></li>
                         </ul>
                     </nav>
 

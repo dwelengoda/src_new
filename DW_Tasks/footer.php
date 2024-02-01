@@ -54,6 +54,17 @@
                     <p class="privacy"><a href="#">Privacy Policy</a> | <a href="#">Terms & Condition</a></p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                <?php
+                                
+                $file_name = basename($_SERVER['PHP_SELF']);
+                $file_last_modified = filemtime($file_name);           
+                echo "Last changes done at: " . date("F d Y H:i:s.", $file_last_modified);
+                            ?>                            
+                        </div>
+                </div>
+            </div>
         </div>
     </div> <!--footer-->
 </section>
