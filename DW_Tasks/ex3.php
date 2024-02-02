@@ -17,13 +17,13 @@
            <h3>02. Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo 
                     statement to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an h3 tag.</h3>
         <div class="container mt-2">
-            <div class="row tourPlanCards">                         
+            <div class="row tourPlanCards text-center">                         
                         </div>
                     </div>
                     <br>
                     <h3>03. Bootstrap Styling: Apply Bootstrap styles to the form. Make sure to include the Bootstrap CSS link in your tag.</h3>
                     <div class="row">
-                        <div class="col-md-6 m-4">
+                        <div class="col-md-6 m-4 text-center">
                             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" class="mt-4">
                                 <div class="mb-3">
                                     <label for="firstName" class="form-label">First Name</label>
@@ -48,7 +48,7 @@
                     <h3>04. HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. Note, you have already done a table 
                         in Exercise 1. If you wish, you can use the same table.</h3>
                   
-                        <table class="table table-dark">
+                        <table class="table table-dark text-center">
                             <thead>
                                 <tr>
                                 <th scope="col">#</th>
@@ -87,7 +87,7 @@
                             $str1 = "Hello";
                             $str2 = "World";
                             $joined = $str1 . " " . $str2;
-                            echo "<h3>Joining String: $joined</h3>";
+                            echo "<h3 text-center>Joining String: $joined</h3>";
                         ?>
               
                     <h3>06. Number Addition: Write a script to add up the numbers: 298, 234, 46. Use 
@@ -98,7 +98,7 @@
                             $number2 = 234;
                             $number3 = 46;
                             $sum = $number1 + $number2 + $number3; 
-                            echo "<h3>Total of the Numbers: $sum</h3>";
+                            echo "<h3 text-center>Total of the Numbers: $sum</h3>";
                         ?>
                     
                     <h3>07. Browser Detection: Write a PHP script to detect the 
@@ -124,7 +124,7 @@
                         }
 
                         
-                        echo "<h3>Detected browser: $browser</h3>";
+                        echo "<h3 text-center>Detected browser: $browser</h3>";
                     ?>
                  
                     <h3>08. File Modification Time: Write a PHP script in the footer section of your 
